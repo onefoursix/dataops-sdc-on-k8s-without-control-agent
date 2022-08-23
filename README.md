@@ -40,7 +40,7 @@ This project shows an example of deploying an instance of StreamSets [Data Colle
   - Generates an <code>sdc.id</code> and stores it in a Secret
   - Generates a Control Hub auth token for SDC and stores it in a Secret
   - Creates a ConfigMap to hold <code>dpm.properties</code> values
-  - Creates an SDC Deployment with Volume Mounts for the Secret and ConfigMap
+  - Creates an SDC Deployment with Volume Mounts for the Secrets and ConfigMap
 
   
    When you run the script you should see output like this:
