@@ -2,10 +2,12 @@
 
 <span style="color:red">
 
-## This project has been deprecated and should no longer be used. Use DataOps Platform's [Kubernetes Agent](https://docs.streamsets.com/portal/platform-controlhub/controlhub/UserGuide/Environments/Kubernetes.html#concept_h4j_m4g_2vb) to deploy StreamSets Engines on Kubernetes instead, for the following reasons:
+## This project has been deprecated and should no longer be used. 
+
+## Use DataOps Platform's [Kubernetes Agent](https://docs.streamsets.com/portal/platform-controlhub/controlhub/UserGuide/Environments/Kubernetes.html#concept_h4j_m4g_2vb) to deploy StreamSets Engines on Kubernetes instead, for the following reasons:
 
 ### -- DataOps Platform's Kubernetes Agent runs as a non-root user
-###  -- Auth tokens generated for StreamSets Engines by the DataOps Platform's Kubernetes Agent are not tied to a user account, and are not vulnerable to being deactivated due to a user deactivation
+###  -- Auth tokens generated for StreamSets Engines by DataOps Platform's Kubernetes Agent are not tied to a user account, and are not vulnerable to being deactivated due to a user deactivation
 ### -- DataOps Platform's Kubernetes Agent supports StreamSets Engines configured with HTTPS, so "TLS all the way down" is now fully supported by DataOps Platform's Kubernetes Agent 
 </span>
 
